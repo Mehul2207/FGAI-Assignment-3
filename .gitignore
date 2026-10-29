@@ -1,0 +1,28 @@
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Hugging Face credentials
+.env
+.env.*
+!.env.example
+*.token
+
+# Downloaded model caches
+.cache/
+huggingface/
+models/
+
+# Training checkpoints and model weights
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Local datasets and generated intermediate data
+data/
+# Keep results, but exclude large files if necessary

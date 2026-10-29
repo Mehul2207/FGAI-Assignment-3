@@ -1,0 +1,26 @@
+{
+  "model": "llama-3.2-1b-instruct (zeroshot)",
+  "arch": "decoder-only",
+  "method": "zero-shot prompting",
+  "params": 1235814400,
+  "trainable_params": 0,
+  "train_time_s": 0.0,
+  "infer_time_s": 1449.6246671676636,
+  "n_test": 200,
+  "bleu": 8.611817939720126,
+  "chrf": 36.390384118609674,
+  "temp_sweep": {
+    "0.0": {
+      "bleu": 8.829861014232579,
+      "chrf": 37.55354392302706
+    },
+    "0.7": {
+      "bleu": 4.958569950599307,
+      "chrf": 30.50965219789163
+    },
+    "1.0": {
+      "bleu": 2.0692458935039064,
+      "chrf": 23.335181237866006
+    }
+  }
+}

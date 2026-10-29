@@ -1,0 +1,3 @@
+| run         | model                 | arch            | method             |   params (M) |   trainable (M) |   BLEU |   chrF |   train time (min) |   infer time (s) |   ms/sentence |
+|:------------|:----------------------|:----------------|:-------------------|-------------:|----------------:|-------:|-------:|-------------------:|-----------------:|--------------:|
+| transformer | Transformer (scratch) | encoder-decoder | train from scratch |            2 |            1.95 |   0.07 |   3.78 |                 18 |             15.5 |          77.6 |

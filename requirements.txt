@@ -1,0 +1,10 @@
+torch>=2.2
+transformers>=4.44
+datasets>=2.20
+peft>=0.12
+accelerate>=0.33
+sentencepiece
+sacrebleu>=2.4
+pandas
+matplotlib
+tqdm

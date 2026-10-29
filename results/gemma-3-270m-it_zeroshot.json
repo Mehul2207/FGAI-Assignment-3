@@ -1,0 +1,26 @@
+{
+  "model": "gemma-3-270m-it (zeroshot)",
+  "arch": "decoder-only",
+  "method": "zero-shot prompting",
+  "params": 268098176,
+  "trainable_params": 0,
+  "train_time_s": 0.0,
+  "infer_time_s": 478.00734877586365,
+  "n_test": 200,
+  "bleu": 2.8827931354650964,
+  "chrf": 13.715700558179144,
+  "temp_sweep": {
+    "0.0": {
+      "bleu": 2.330470464187169,
+      "chrf": 13.107084193329161
+    },
+    "0.7": {
+      "bleu": 3.0045849931733057,
+      "chrf": 12.33877663539481
+    },
+    "1.0": {
+      "bleu": 3.6617942150123186,
+      "chrf": 12.964555134735248
+    }
+  }
+}

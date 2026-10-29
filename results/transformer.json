@@ -1,0 +1,26 @@
+{
+  "model": "Transformer (scratch)",
+  "arch": "encoder-decoder",
+  "method": "train from scratch",
+  "params": 1950208,
+  "trainable_params": 1950208,
+  "train_time_s": 1080.984257698059,
+  "infer_time_s": 15.513926029205322,
+  "n_test": 200,
+  "bleu": 0.06956459985113315,
+  "chrf": 3.7836457677722675,
+  "temp_sweep": {
+    "0.0": {
+      "bleu": 0.17002504736513546,
+      "chrf": 3.8531626834686388
+    },
+    "0.7": {
+      "bleu": 0.7375927907526468,
+      "chrf": 10.210129636268032
+    },
+    "1.0": {
+      "bleu": 0.44963172677484936,
+      "chrf": 11.366792475184738
+    }
+  }
+}

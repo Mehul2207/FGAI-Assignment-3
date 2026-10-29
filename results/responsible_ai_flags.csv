@@ -1,0 +1,2 @@
+run,empty %,mostly-Latin (untranslated) %,len ratio >1.8 (possible hallucination) %,len ratio <0.4 (possible omission) %
+transformer,0.0,0.0,66.5,7.0
